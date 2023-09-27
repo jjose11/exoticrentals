@@ -90,6 +90,7 @@ a:hover {
 }
 
 .carContainer {
+
   width: 300px;
   height: 160px;
 
@@ -181,27 +182,27 @@ h3 {
       background-color:#008CBA;
   font-size: 12px;
     border: none;
-    font-weight: bold;
     color: whitesmoke;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
     transition-duration: 0.4s;
-   
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     border-radius: 14px;
     -webkit-border-radius: 14px;
     -moz-border-radius: 14px;
     -ms-border-radius: 14px;
     -o-border-radius: 14px;
+   
 }
 
 .rent:hover {
   background-color: #292827;
    border: 1px solid #008CBA;
   font-size: 12px;
-  font-weight: bold;
   color: white;
   padding: 5px 15px;
   text-align: center;
